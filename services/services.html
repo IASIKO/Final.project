@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services</title>
+    <link rel="stylesheet" href="services.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo">
+          <img src="../images/logo.png" alt="" />
+        </div>
+        <div class="nav" id="navigation">
+          <ul class="nav-ul" id="navUl">
+            <li><a href="../index.html" class="nav-a">Home</a></li>
+            <li><a href="../news/news.html" class="nav-a">News</a></li>
+            <li><a href="../team/team.html" class="nav-a">Team</a></li>
+            <li>
+              <a href="../services/services.html" class="nav-a">Services</a>
+            </li>
+          </ul>
+        </div>
+        <div class="registration-search">
+          <ul>
+            <li>
+              <a href="" id="joinBtn">Sign up</a>
+            </li>
+            <li class="left-border">
+              <span class="search-icon">
+                <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>
+              </span>
+            </li>
+            <div class="burger-menu" id="burgerMenu">
+              <div class="burger"></div>
+              <div class="burger"></div>
+              <div class="burger"></div>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+      <!-- REGISTRATION FORM  -->
+
+      <section class="form-section" id="formSection">
+        <form action="" method="post" id="form">
+          <div class="heading">
+            <h1>Registration Form</h1>
+            <span>
+              <i class="fa-solid fa-xmark" id="closeForm"></i>
+            </span>
+          </div>
+          <div class="grid-container">
+            <div class="inputs">
+              <label for="firstName">First Name</label>
+              <input
+                type="text"
+                id="firstName"
+                name="firstname"
+                placeholder="First Name"
+              />
+              <span class="error-text" id="error_firstName"></span>
+            </div>
+            <div class="inputs">
+              <label for="lastName">Last Name</label>
+              <input
+                type="text"
+                id="lastName"
+                name="lastname"
+                placeholder="First Name"
+              />
+              <span class="error-text" id="error_lastName"></span>
+            </div>
+            <div class="inputs pass-input">
+              <label for="passw">Password</label>
+              <input
+                type="password"
+                id="passw"
+                name="mypassword"
+                placeholder="Password"
+              />
+              <span class="show"
+                ><i class="fa-solid fa-eye" id="showHide"></i
+              ></span>
+              <!-- <span class="hide"><i class="fa-solid fa-eye-slash"></i></span> -->
+              <span class="error-text" id="error_password"></span>
+            </div>
+            <div class="inputs pass-input">
+              <label for="repPassw">Repeat Password</label>
+              <input
+                type="password"
+                id="repPassw"
+                name="mypassword"
+                placeholder="Repeat Password"
+              />
+              <span class="show"
+                ><i class="fa-solid fa-eye" id="showHide1"></i
+              ></span>
+              <span class="error-text" id="error_repPassword"></span>
+            </div>
+            <div class="inputs">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="myemail"
+                placeholder="Email"
+              />
+              <span class="error-text valid-mail" id="text"></span>
+            </div>
+            <div>
+              <div class="flex-input">
+                <input type="radio" name="gender" />
+                <label for="gender">Male</label>
+                <input type="radio" name="gender" />
+                <label for="gender">Female</label>
+              </div>
+              <span class="error-text error-mail" id="error_gender"></span>
+            </div>
+          </div>
+          <div class="agree-submit">
+            <div>
+              <input type="checkbox" name="agree" id="agree" />
+              <label for="agree">
+                I've read and agreed with the terms and conditions</label
+              >
+              <span class="error-text" id="error_agree"></span>
+            </div>
+            <div class="btn">
+              <button type="submit" class="submit-btn" id="submitBtn">
+                Create account and continue
+              </button>
+            </div>
+          </div>
+        </form>
+      </section>
+    </header>
+    <main>
+      <div class="main">
+        <section class="servicesAcordion">
+          <button class="accordion">
+            <i class="fa-solid fa-people-group"></i>
+            <h1>Corporate</h1>
+            <span class="none">
+              <i class="fa-solid fa-minus"></i>
+            </span>
+          </button>
+          <div class="panel">
+            <p>
+              In response to the complex requirements of domestic and
+              international transactions and the considerable areas of law
+              involved, our GGI member law firms amalgamate the knowledge,
+              experience, and skills of the various disciplines necessary to
+              successfully conclude transactions for their demanding corporate
+              clientele. GGI member law firms are generally full service
+              corporate law firms, which means that they aim to offer a
+              comprehensive range of services to their clients rather than
+              focusing on just one specific area of law. A strong local presence
+              plus the advantage of efficient global resources enable corporate
+              clients to enjoy swift and successful solutions. Our member law
+              firms advise public and privately held corporations on mergers and
+              acquisitions, corporate restructurings, private equity and venture
+              capital, underwritten and syndicated offerings, commercial finance
+              and syndicated lending, cross-border transactions and general
+              corporate matters. Their wide-ranging industry experience includes
+              transactions in a multitude of fields.
+            </p>
+            <ul>
+              <li>
+                <p class="todoBtns">Bank Finance and Regulation</p>
+              </li>
+              <li>
+                <p class="todoBtns">Company Law</p>
+              </li>
+              <li>
+                <p class="todoBtns">Construction and Infrastructure</p>
+              </li>
+              <li>
+                <p class="todoBtns">E-commerce and Technology</p>
+              </li>
+              <li>
+                <p class="todoBtns">Tax</p>
+              </li>
+              <li>
+                <p class="todoBtns">Health Care Industries</p>
+              </li>
+              <li>
+                <p class="todoBtns">Immigration</p>
+              </li>
+              <li>
+                <p class="todoBtns">Intellectual Property</p>
+              </li>
+            </ul>
+          </div>
+
+          <button class="accordion even">
+            <i class="fa-sharp fa-solid fa-user-tie"></i>
+            <h1>Private</h1>
+          </button>
+          <div class="panel">
+            <p>
+              GGI member law firms servicing private clients are knowledgeable
+              in providing high net worth individuals with professional advice
+              on all aspects of family law, inheritance law, taxation, wealth
+              planning and succession related matters. Clients are assisted
+              globally through the comprehensive knowledge in international
+              civil law, international estate planning, wealth management and
+              dispute resolution offered. Regardless of whether the client is in
+              a civil law or case law jurisdiction, due to the unique
+              multidisciplinary approach of GGI and the broad coverage of member
+              law firms all over the world, complex problems are able to be
+              solved.
+            </p>
+            <ul>
+              <li>
+                <p class="todoBtns">Alternative Dispute Resolution</p>
+              </li>
+              <li>
+                <p class="todoBtns">Arbitration</p>
+              </li>
+              <li>
+                <p class="todoBtns">Commercial Litigation</p>
+              </li>
+              <li>
+                <p class="todoBtns">International Dispute Resolution</p>
+              </li>
+              <li>
+                <p class="todoBtns">Mediation</p>
+              </li>
+              <li>
+                <p class="todoBtns">Supreme Courts and Appellate</p>
+              </li>
+            </ul>
+          </div>
+
+          <button class="accordion">
+            <i class="fa-solid fa-gavel"></i>
+            <h1>Litigation & Dispute Resolution</h1>
+          </button>
+          <div class="panel">
+            <p>
+              As international business is by definition global, clients need to
+              have access to experienced litigators all over the world. GGI
+              member law firms are proven professionals in national and
+              international court cases and many of their litigators are
+              recognized as leaders in their specific field. Legal disputes are
+              common place and are usually unpleasant and expensive. The
+              required solution can often be arrived at more effectively via the
+              option of arbitration or mediation. Our member law firms are
+              leaders in both. They assess their clients' prospects with draft
+              solutions in preparation aimed directly at an alternative dispute
+              resolution, but also, if found necessary, will represent their
+              clients in the respective court or supreme courts. Today it is
+              more than ever advisable to carefully select of the manner of
+              dispute resolution prior to facing any legal conflict. GGI's
+              global presence through sophisticated litigators as well as
+              experienced professionals in arbitration and mediation provides
+              clients with broad and holistic support.
+            </p>
+            <ul>
+              <li>
+                <p class="todoBtns">Agribusiness and Subsidies</p>
+              </li>
+              <li>
+                <p class="todoBtns">Bank Finance and Regulation</p>
+              </li>
+              <li>
+                <p class="todoBtns">Capital Markets and Regulations</p>
+              </li>
+              <li>
+                <p class="todoBtns">Construction and Infrastructure</p>
+              </li>
+              <li>
+                <p class="todoBtns">Energy and Natural Resources</p>
+              </li>
+              <li>
+                <p class="todoBtns">Environmental</p>
+              </li>
+              <li>
+                <p class="todoBtns">Health Care Industries</p>
+              </li>
+              <li>
+                <p class="todoBtns">Insurance and Reinsurance</p>
+              </li>
+            </ul>
+          </div>
+
+          <button class="accordion even">
+            <i class="fa-solid fa-landmark"></i>
+            <h1>Administrative & Government Affairs</h1>
+          </button>
+          <div class="panel">
+            <p>
+              Administrative Law is rapidly growing as a consequence of the
+              increase in governmental functions. Markets and other complex
+              forms of non-governmental administration generate enormous
+              benefits, but also produce inefficiencies and failures, abuses of
+              economic power and position, environmental degradation, safety
+              hazards, economic insecurity, dependency, and other systemic ills.
+              In response to the inadequacies of private and criminal law,
+              legislatures have adopted extensive programs to prevent these
+              ills. Corporate clients as well as some private clients require
+              extensive advice and support for their national and international
+              businesses from well-established GGI law firms who are at the
+              forefront of the latest developments in Administrative Law and
+              understand the necessity for precise assessment and meticulous
+              preparation in all government related affairs, public procurement,
+              government tenders or tenders put out by international
+              organizations and entities.
+            </p>
+            <ul>
+              <li>
+                <p class="todoBtns">Business Crimes, Fraud and Compliance</p>
+              </li>
+              <li>
+                <p class="todoBtns">Estate Planning and Administration</p>
+              </li>
+              <li>
+                <p class="todoBtns">Family Law</p>
+              </li>
+              <li>
+                <p class="todoBtns">Immigration, Residence and Nationality</p>
+              </li>
+              <li>
+                <p class="todoBtns">Labour and Employment</p>
+              </li>
+              <li>
+                <p class="todoBtns">Real Estate</p>
+              </li>
+              <li>
+                <p class="todoBtns">Tax Planning and Litigation</p>
+              </li>
+              <li>
+                <p class="todoBtns">Private Investment Companies and Funds</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="services-todo" id="servicesToDo">
+          <span class="remove-all" id="removeAll">
+            <i class="fa-solid fa-trash"></i>
+          </span>
+          <h1>My List</h1>
+          <ul class="todo-list" id="todoList"></ul>
+        </section>
+        <!-- <div id="inputDiv">
+        <input type="text" name="" id="input" />
+        <button id="addBtn">Add</button>
+      </div> -->
+      </div>
+    </main>
+
+    <footer>
+      <section class="footer-section">
+        <div class="left-side">
+          <ul class="footer-flex leftie">
+            <li class="location icon reduce"> 
+              <h3>Albuquerque, New Mexico</h3>
+            <span>
+              <i class="fa-solid fa-location-dot"></i>
+            </span></li>
+            <li class="num icon reduce"> 
+              <h3>+1-505-555-0149</h3>
+              <span>
+                <i class="fa-solid fa-phone"></i>
+              </span>
+            </li>
+            <li class="mail icon reduce">
+              <h3>hhmlawoffice@company.com</h3>
+            <span>
+              <i class="fa-solid fa-envelope"></i>
+            </span>
+            </li>
+          </ul>
+        </div>
+        <div class="middle-side">
+          <ul class="footer-flex mid">
+            <li class="reduce">
+              <h3>About the company</h3>
+            </li>
+            <li>
+              <p>
+                Hamlin, Hamlin & McGill (HHM), formerly Hamlin & McGill, is a large law firm based in Albuquerque, New Mexico.
+            </p>
+            </li>
+            <li class="icons">
+              <span><a href=""><i class="fa-brands fa-facebook"></i></a></span>
+              <span><a href=""><i class="fa-brands fa-square-twitter"></i></a></span>
+              <span><a href=""><i class="fa-brands fa-linkedin"></i></a></span>
+              <span><a href=""><i class="fa-brands fa-youtube"></i></a></span>
+            </li>
+          </ul>
+          </div>
+          <div class="right-side">
+            <ul class="footer-flex rightie">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="news/news.html">News</a></li>
+              <li><a href="team/team.html">Team</a></li>
+              <li>
+                <a href="services/services.html">Services</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="services.js"></script>
+  </body>
+</html>
