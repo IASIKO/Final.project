@@ -6,6 +6,10 @@ Welcome to the Layer Information Website, a dynamic and responsive platform buil
 This website is designed to provide you with detailed information about different layers in a user-friendly manner. 
 It incorporates several key features to enhance your experience:
 
+## Live deployment link
+
+[HHM](https://iasiko.github.io/Final.project/)
+
 ## Features
 
 Layer Slider: Explore the various layers using an interactive slider. Slide through the layers to reveal in-depth information and visualizations.
@@ -22,6 +26,14 @@ adapting to various screen sizes.
 Sign-Up Form: Stay informed by signing up for our newsletter. The website includes a user-friendly sign-up form, 
 collecting your email to provide you with the latest updates and insights.
 
+Form validation.
+
+News page: add news, delete news and see more details.
+
+Team page: team members list, search functionality on keystroke.
+
+Services page: Accordion.
+
 ## Installation
 
 Provide instructions on how to install and set up your project. Be sure to mention any prerequisites or dependencies that need to be installed. For example:
@@ -29,4 +41,5 @@ Provide instructions on how to install and set up your project. Be sure to menti
 1. Clone the repository: `git clone https://github.com/IASIKO/Final.project`
 2. Navigate to the project directory: `cd Final.project`
 3. Open `index.html` in your web browser.
+
 
